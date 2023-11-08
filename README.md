@@ -19,10 +19,10 @@ PyTorch code for 2023 paper "Raw Image Based Over-Exposure Correction Using Chan
 Over-exposed Raw image processing has been rarely studied due to limited available data. In order to bridge the gap of datasets and make it feasible for RAW-based end-to-end learning, we construct a large-scale RAW-based synthetic dataset mainly for model pretraining, and collect a real-world dataset from real photography that contains diverse over-exposed image pairs for training, fine-tuning and evaluation. Both of them are created in both RAW and sRGB formats and contain paired over-exposed and properly-exposed images.
 
 ## Synthetic RAW Image Dataset
-To simulate realistic multi-exposure errors, we render over-exposed RAW images by multiplying reference RAW images with 4 different digital ratios of 3, 5, 8, and 10. 1595 high-quality reference original images are finally retained in our SOF dataset. Each properly-exposed reference image corresponds to 4 overexposed images of different degrees.
+To simulate realistic multi-exposure errors, we render over-exposed RAW images by multiplying reference RAW images with 4 different digital ratios of 3, 5, 8, and 10. 1595 high-quality reference original images are finally retained in our SOF dataset. Each properly-exposed reference image corresponds to 4 overexposed images of different degrees.The complete Synthetic RAW Image Dataset (~94.31GB) is available via link xx.
 
 ## Real-World RAW Image Dataset
-The collected Real-world Paired Over-exposure (RPO) dataset contains 650 indoor and outdoor scenarios. For each scene, we collect a sequence of overexposed RAW images with 4 pre-set over-exposure ratios to evaluate over-exposure correction methods. This yields a total of 2,600 over-exposure RAW images, with the corresponding sRGB images.
+The collected Real-world Paired Over-exposure (RPO) dataset contains 650 indoor and outdoor scenarios. For each scene, we collect a sequence of overexposed RAW images with 4 pre-set over-exposure ratios to evaluate over-exposure correction methods. This yields a total of 2,600 over-exposure RAW images, with the corresponding sRGB images.The complete Real-World RAW Image Dataset (~22.32GB) is available via link xx.
 # CItation
 If you find our work helpful to your research or work, Please cite our paper.
 
