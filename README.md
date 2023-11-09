@@ -12,8 +12,16 @@ PyTorch code for 2023 paper ["Raw Image Based Over-Exposure Correction Using Cha
 
 - We have assembled a new real-world dataset specifically designed for over-exposure correction. This dataset encompasses both RAW and sRGB images across a broad spectrum of scenes. Quantitative and qualitative results on both synthetic and real-world datasets show that our CGNet achieves state-of-the-art performance on overexposure correction.
 # Prerequisites
-- Python  >=  3.7
-- torch  =  1.10.0+cu111
+We provide Prerequisites for reference, please refer to requirements.txt.
+- matplotlib==3.5.3
+- numpy==1.21.6
+- opencv-python==4.7.0.72
+- Pillow==9.4.0
+- rawpy==0.18.0
+- scipy==1.7.3
+- torch==1.10.0+cu111
+- torchvision==0.11.0+cu111
+- tqdm==4.65.0
 
 # Dataset
 Over-exposed Raw image processing has been rarely studied due to limited available data. In order to bridge the gap of datasets and make it feasible for RAW-based end-to-end learning, we construct a large-scale RAW-based synthetic dataset mainly for model pretraining, and collect a real-world dataset from real photography that contains diverse over-exposed image pairs for training, fine-tuning and evaluation. Both of them are created in both RAW and sRGB formats and contain paired over-exposed and properly-exposed images.
@@ -44,3 +52,4 @@ If you find our work helpful to your research or work, Please cite our paper.
   pages={1-1},
   doi={10.1109/TCSVT.2023.3311766}}
 ```
+# Reimplementation Results Comparison
