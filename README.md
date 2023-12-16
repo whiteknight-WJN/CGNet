@@ -29,11 +29,15 @@ Over-exposed Raw image processing has been rarely studied due to limited availab
 ## Synthetic RAW Image Dataset
 To simulate realistic multi-exposure errors, we render over-exposed RAW images by multiplying reference RAW images with 4 different digital ratios of 3, 5, 8, and 10. 1595 high-quality reference original images are finally retained in our SOF dataset. Each properly-exposed reference image corresponds to 4 overexposed images of different degrees.Since the original data files are difficult to verify, the synthetic data we finally collected (processed from the MIT-Adobe FiveK dataset) totaled 3051 groups. During the test process, the program obtains the corresponding test data by reading the txt file.
 
+For more information ,please click [here](https://github.com/whiteknight-WJN/SOF-Dataset)
+
 The complete Synthetic RAW Image Dataset (~94.31GB) is available via link ：https://pan.baidu.com/s/14sm4ePAr2xBf442hmjmqlA 
 Extraction code：kfkg 
 
 ## Real-World RAW Image Dataset
 The collected Real-world Paired Over-exposure (RPO) dataset contains 650 indoor and outdoor scenarios. For each scene, we collect a sequence of overexposed RAW images with 4 pre-set over-exposure ratios to evaluate over-exposure correction methods. This yields a total of 2,600 over-exposure RAW images, with the corresponding sRGB images.
+
+For more information ,please click [here]([https://github.com/whiteknight-WJN/SOF-Dataset](https://github.com/whiteknight-WJN/RPO-Dataset))
 
 The complete Real-World RAW Image Dataset (~22.32GB) is available via link：https://pan.baidu.com/s/1L6Fog7X6Xd3tD_aRsyVNtg 
 Extraction code：stzm 
